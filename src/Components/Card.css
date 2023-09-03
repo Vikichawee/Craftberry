@@ -1,0 +1,57 @@
+body {
+  overflow: hidden;
+}
+.card {
+  /* Your existing card styles here */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cardTitle {
+  color: #1c2635;
+  text-align: center;
+  font-family: Grange;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 26.4px */
+  width: 350px;
+  flex: 1 0 0;
+  padding: 0;
+  margin: 0;
+}
+.cardPrice {
+  color: #1c2635;
+  text-align: center;
+  font-family: Grange;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 19.8px */
+  width: 350px;
+  flex: 1 0 0;
+  padding: 0;
+  margin: 0;
+}
+.card img {
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.heart-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  outline: none;
+  z-index: 1; /* Ensure it's above the image */
+}

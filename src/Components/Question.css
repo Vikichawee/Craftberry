@@ -1,0 +1,93 @@
+.containerQuestion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.questionGrid {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+.buttons button {
+  display: flex;
+  height: 50px;
+  max-width: fit-content;
+  min-width: 189px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #5bc1ed;
+  padding: 14px 40px 14px 20px;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  color: #1c2635;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.questionGrid a {
+  width: fit-content;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1100px;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+}
+#next {
+  background-color: lightblue;
+  border: 0;
+  padding: 14px 40px 14px 40px;
+  border-radius: 10px;
+  color: #1c2635;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+#back {
+  text-decoration: underline;
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 8px;
+}
+button:active {
+  background-color: lightblue;
+}
+.title {
+  text-align: center;
+  width: 583px;
+  color: #1c2635;
+  text-align: center;
+  font-family: Grange;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 44px */
+}
+.circleProgression {
+  width: 101px;
+  position: absolute;
+  left: 105%;
+  top: 10px;
+}

@@ -1,0 +1,53 @@
+.container img {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(https://s3-alpha-sig.figma.com/img/9015/5e76/9545e9b86afd1e9c431704007c1c0714?Expires=1694390400&Signature=nb-BZkP7NW9FRc1sOp-0ORkb58fbjv1hQkxkCGLLztkAg3BNSeQqoNKUvecTaX0vYyA4H2ox9yzaWuGgyqfScTUBenJ6JBvSipkI~VxqYmC6S9mtsCBY9n0VR1fNgUYnspgl6744ZSM0iCNpUiqXbHJXXP7MtwW4tOTtEb4zvwyo9GxgdRnXOL0-7dJSNvsysveZvHSu~zy~GPo05LwrLD87C7WTXFbIYndSBsYlmDitN-JMSbog5tZL-5mTwpo2P6w6jtxlESQucZhW40TN4mBdmIVHhZnG~ygASIaMUKX4d0lgXPhnuC0AI2G4pbIQ3d9sJI8LV2ErQA3EUPYN1A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 536px;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+.text {
+  font-family: Grange;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  color: #fff;
+  margin: 0;
+}
+.subText {
+  color: #fff;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  display: grid;
+}
+#quizButton {
+  background-color: lightblue;
+  border: 0;
+  padding: 14px 40px 14px 40px;
+  border-radius: 10px;
+  color: #1c2635;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}

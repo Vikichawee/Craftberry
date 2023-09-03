@@ -1,0 +1,63 @@
+.endHeader {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(https://s3-alpha-sig.figma.com/img/ba1b/5fee/c77ec1fc9d27c36047d092f5787f5336?Expires=1694390400&Signature=XSaOaU~iBO5aOoeMAFfe08fB~vnzJ3urVbp5T8Z2y4cQrMsPU6TrnEtU8cX5ag~n6CzQq~37a3sj9Kzr8EkSdzOLykO7~ZFIHzWDgFhGcituScifuuZseF6FPSBvSptj33oHNSpP7AAOj4gdx~tpV8QY5ujUmHb3R~GvwJFOO7Sgkcdi4MmQlLTO6~2nDmk4W-dGDJuDXL1Cjt2NlCSCK7HY1ayyVRBHmGHDqRrra0mo0B6sFFhXmmom418v~0~R9AF-wpD7qCuhei41qaa~9OQurgMnisdYdqBiGhj3O8mqF5s2qcHl6o7o2dw5rykORjrsVic6Y4uyforUaCvXNA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative; /* Ensure z-index works */
+  z-index: 1;
+  height: 390px;
+  gap: 16px;
+}
+.endHeader p {
+  width: 583px;
+  color: #fff;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.endHeader h1 {
+  width: 583px;
+  color: #fff;
+  text-align: center;
+  font-family: Grange;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 44px */
+}
+.endHeader button {
+  color: #fff;
+  width: 240px;
+  height: 47px;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  background-color: transparent;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 80px;
+  z-index: 5;
+  cursor: pointer;
+}
+.endContainer {
+  position: relative;
+}
+.carousel-container {
+  position: absolute;
+  top: 320px; /* Adjust this value to move the slider up */
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
