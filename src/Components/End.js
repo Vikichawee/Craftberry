@@ -118,9 +118,9 @@ function End({ choices }) {
       <div className="carousel-container">
         <AliceCarousel
           className="recommendedGrid"
-          items={2}
+          items={1}
           responsive={{
-            0: { items: 2 },
+            790: { items: 2 },
           }}
         >
           {allCards}

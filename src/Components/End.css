@@ -55,9 +55,39 @@
 }
 .carousel-container {
   position: absolute;
-  top: 320px; /* Adjust this value to move the slider up */
+  top: 320px;
   left: 0;
   right: 0;
   margin: auto;
   z-index: 2;
+}
+@media (max-width: 768px) {
+  .endHeader {
+    padding: 16px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .endHeader h1 {
+    font-size: 32px;
+  }
+
+  .endHeader p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  .endHeader {
+    padding: 16px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .endHeader h1 {
+    font-size: 32px;
+  }
+
+  .endHeader p {
+    font-size: 14px;
+  }
 }

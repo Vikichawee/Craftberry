@@ -1,8 +1,11 @@
+html,
 body {
   overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 .card {
-  /* Your existing card styles here */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,4 +57,33 @@ body {
   transition: color 0.3s ease-in-out;
   outline: none;
   z-index: 1; /* Ensure it's above the image */
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
+  .cardTitle {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .cardPrice {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .card img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .image-container {
+    text-align: center;
+  }
+  .heart-button {
+    position: relative;
+    top: 0px;
+    left: 0;
+  }
 }

@@ -51,3 +51,26 @@
   line-height: normal;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .container img {
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .grid {
+    top: 40%;
+  }
+
+  .text {
+    font-size: 32px;
+  }
+
+  .subText {
+    font-size: 14px;
+  }
+
+  #quizButton {
+    padding: 14px 30px;
+  }
+}
